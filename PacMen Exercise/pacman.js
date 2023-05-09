@@ -1,4 +1,3 @@
-<html>
 <SCRIPT>
  var pos = 0;
 const pacArray = [
@@ -65,13 +64,3 @@ function makeOne() {
   pacMen.push(makePac()); // add a new PacMan
 }
 </SCRIPT>
-
-<body>
-    <div id='game'>
-        <button onclick='makeOne()' width='200' height='30'>Add PacMan</button>
-        <button onclick='update()' width='200' height='30'>Start Game</button>
-
-    </div>
-</body>
-
-</html>
